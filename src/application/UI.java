@@ -8,7 +8,7 @@ public class UI {
 		
 		for (int i = 0; i < pieces.length; i++) {
 			
-			System.out.print((8 -i) + " ");
+			System.out.print((8 - i) + " ");
 			
 			for (int j = 0; j < pieces.length; j++) {
 				
@@ -23,7 +23,7 @@ public class UI {
 	
 	private static void printPiece(ChessPiece piece) {
 		if (piece == null) {
-			System.out.print("_");
+			System.out.print("-");
 		} else {
 			System.out.print(piece);
 		}
